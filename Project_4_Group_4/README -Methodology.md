@@ -1,4 +1,4 @@
-#SQL Methodolgy for the Project
+# SQL Methodolgy for the Project
 
 The project begins by creating three key tables within the PostgreSQL database:
 •    causeyear Table: This table holds general information about different causes of death over various years.
@@ -28,7 +28,7 @@ The query combines the causeyear, causestate, and causedeath tables using SQL JO
 The final output of the query provides detailed data on death statistics across multiple states and years, which can then be analyzed for insights into causes of death and trends over time.
 
 
-#Python/Java Methodology for the Project
+# Python/Java Methodology for the Project
 
 TThis study employs a data-driven approach to analyze unusual patterns in causes of death across U.S. states. The dataset, sourced from public health databases such as the Centers for Disease Control and Prevention (CDC), includes state-wise mortality counts, age-adjusted death rates, and cause-specific trends over multiple years. Additional socioeconomic and environmental data, such as poverty rates, healthcare access, and pollution levels, are integrated to explore potential correlations. Data preprocessing is performed using Python in Jupyter Notebook, where pandas is used to clean and standardize column names, convert numerical variables, handle missing values, and detect inconsistencies to ensure accuracy and reliability. JavaScript is incorporated for frontend visualization to create interactive dashboards that allow users to explore specific causes and state-wise trends.
 
