@@ -14,9 +14,12 @@ This table holds general information about different causes of death over variou
   
   Cause_Name: A detailed name for the cause of death.
   
-## causestate Table: 
+## causestate Table:
+
    This table holds data related to causes of death across different states.
+   
 ## Columns: 
+
  ID: a reference to the causeyear table.
  
  Cause_Name: The name of the cause of death.
@@ -27,20 +30,31 @@ State: The state in which the data is recorded.
  This table contains data on the number of deaths and age-adjusted death rates for each cause in different states.
  
  ## Columns: 
+ 
  ID: a reference to the causeyear table.
+ 
  Cause_Name: The name of the cause of death.
+ 
  Deaths: The number of deaths attributed to this cause.
+ 
  Age-adjusted_Death_Rate: The age-adjusted death rate for this cause.
+ 
  State: The state in which this data was recorded.
+ 
  Foreign Key Constraints
+ 
  After creating the tables, we establish relationships between them by adding foreign key constraints. This ensures referential integrity, meaning data in related 
  
 ## tables must remain consistent:
+
 ## Data Query
+
 The query combines the causeyear, causestate, and causedeath tables using SQL JOIN clauses, based on their relationships:
 
 The query joins the three tables on the ID column, ensuring data consistency across all tables.
+
 It retrieves relevant columns such as Year, Cause_Name, State, Deaths, and Age-adjusted_Death_Rate to provide a comprehensive view of death statistics.
+
 The final output of the query provides detailed data on death statistics across multiple states and years, which can then be analyzed for insights into causes of death and trends over time.
 
 
