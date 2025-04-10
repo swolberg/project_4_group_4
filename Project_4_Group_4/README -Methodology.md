@@ -1,4 +1,6 @@
-# SQL Methodolgy for the Project
+# NCHS Leading Causes Of Death Project
+
+## SQL Methodolgy for the Project
 
 The project begins by creating three key tables within the PostgreSQL database:
 
