@@ -1,4 +1,4 @@
-# NCHS Leading Causes Of Health
+# NCHS Leading Causes Of Death
 
 ## Overview of Compliance Discussion: ECPA, GDPR, and HIPAA
 
