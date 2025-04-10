@@ -1,4 +1,7 @@
-Overview of Compliance Discussion: ECPA, GDPR, and HIPAA
+# NCHS Leading Cause Of Health
+
+## Overview of Compliance Discussion: ECPA, GDPR, and HIPAA
+
 Our discussion focused on how the dataset on leading causes of death in the U.S. relates to major data privacy regulations, specifically:
 Electronic Communications Privacy Act (ECPA) – Communications Privacy
 General Data Protection Regulation (GDPR) – Data Privacy in the EU
